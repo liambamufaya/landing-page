@@ -2,11 +2,21 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: rgba(4, 42, 92, 0.952);
+    background-color: #1F2937;
     color: white;
     padding-bottom: 35px;
     padding-top: 16px;
   
+}
+
+button{
+    background-color: #3882f6;
+    border: 1px solid #3882f6;
+    border-radius: 5px;
+    color: white;
+    padding: 7px;
+    width: 100px;
+    height: 35px;
 }
 
 ul{
@@ -27,8 +37,9 @@ a{
 
 .upper{
     display: flex;
-    background-color: rgba(4, 42, 92, 0.952);
+    background-color:  #1F2937;
     color: white;
+    padding-bottom: 100px;
 }
 
 body{
@@ -39,8 +50,8 @@ body{
 
 .middle{
     display: flex;
-    gap: 28px;
-    justify-content: center;
+    gap: 25px;
+    justify-content: center;    
 }
 
 .center{
@@ -66,15 +77,56 @@ body{
 h2{
     font-size: 36px;
     font-weight: 900;
-    color: #1F2973;
+    color: #1F2937;
 }
 
 .box.image{
     border-radius: 10px;
-    border: 5px solid rgb(23, 0, 153); 
+    border: 2px solid rgb(168, 168, 168);
+    height: 200px;
+    width:200px; 
 }
 
 .hero-image{
     border-radius: 10px;
 }
 
+.container{
+    width:200px; 
+}
+
+.quote{
+    background-color: #E5E7EB;
+    text-align: center;
+    padding: 50px;
+    margin-bottom: 50px;
+}
+
+.author{
+    text-align: right;
+}
+
+.modal{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color:  #1F2937;
+    width: 700px;
+    height: 80px;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    gap: 18px;
+}
+
+.footer{
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 15px;
+}
+
+#dif{
+    border-color: white;
+}
